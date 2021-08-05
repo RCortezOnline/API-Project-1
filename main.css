@@ -1,0 +1,82 @@
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.firstViewHeightVid {
+  display: flex;
+  margin-top: -200px;
+  background: url();
+  background-size: cover;
+  height: 115.5vh;
+  color: var(--black);
+  font-weight: bold;
+}
+.table {
+  height: 110vh;
+  background-color: black;
+  margin-top: -890px;
+  border: black;
+  border-radius: 0px;
+  color: red;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  margin-left: 10px;
+  background-color: black;
+  margin: -10px;
+  padding: 0;
+  margin-left: 0px;
+}
+
+.video {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  color: white;
+  margin: auto;
+}
+
+.col {
+  color: lightgreen;
+  margin: auto;
+}
+
+.inRow {
+  color: lightgreen;
+}
+.footer {
+  height: 100px;
+  border: maroon;
+  background-color: red;
+  text-align: center;
+  margin-top: -17px;
+  padding: 0;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 6;
+    color: white;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
