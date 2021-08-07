@@ -40,71 +40,53 @@
       </nav>
     </div>
   </header>
-  
+
   <video src="/API-Project-1/assets/covidVid.mp4" muted loop autoplay></video>
   <div class="overlay"></div>
 
- <div class="firstViewHeightVid">
-<p>sdfgsdgs</p>
+  <div class="firstViewHeightVid">
+    <p>sdfgsdgs</p>
 
- </div>
- 
- 
+  </div>
+
+
   <div class="container-fluid">
 
   </div>
   <div class='tableDiv'>
     <table class="table">
-      <thead>
+      <!-- <thead> -->
         <tr>
-          <th class="row">Country</th>
+          <th class="countryRow">Country</th>
           <th class="col">New Confirmed</th>
-          <th class="col">Total Confirmed</th>
+          <th class="col2">Total Confirmed</th>
           <th class="lastCol">Total Deaths</th>
         </tr>
-      </thead>
+      <!-- </thead> -->
       <tbody>
         <tr>
-          <th class="row">United States</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>NumberNumber</td>
+          <th class="usRow">United States</th>
+          <td class="usNew"></td>
+          <td class="usConfirm"></td> </td>
+          <td class="usDeath"></td> </td>
         </tr>
         <tr>
-          <th class="row">China</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
+          <th class="chinaRow">China</th>
+          <td class="chinaNew"></td>
+          <td class="chinaConfirm"></td>
+          <td class="chinaDeath"></td>
         </tr>
         <tr>
-          <th class="row">Russia</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
+          <th class="russiaRow">Russia</th>
+          <td class="russiaNew"></td>
+          <td class="russiaConfirm"></td>
+          <td class="russiaDeath"></td>
         </tr>
         <tr>
-          <th class="row">Mexico</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
-        </tr>
-        <tr>
-          <th class="row">South Africa</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
-        </tr>
-        <tr>
-          <th class="row">Italy</th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
-        </tr>
-        <tr>
-          <th class="row">Global </th>
-          <td class="inRow">Number</td>
-          <td class="inRow">Number</td>
-          <td>Number</td>
+          <th class="globalRow">Global </th>
+          <td class="globalNew"></td>
+          <td class="globalConfirm"></td>
+          <td class="globalDeath"></td>
         </tr>
       </tbody>
     </table>
@@ -112,6 +94,10 @@
   <footer class="footer">
     REAL-TIME INFORMATION USING FOLLOWING API: https://api.covid19api.com/summary
   </footer>
+
+
+  <script src="./main.js">
+  </script>
 </body>
 
 </html>
